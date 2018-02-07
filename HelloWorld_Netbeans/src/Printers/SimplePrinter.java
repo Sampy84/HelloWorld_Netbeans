@@ -15,6 +15,11 @@ public class SimplePrinter {
     public void printSecretMessage(String message){
     
         System.out.println("The secret message is: "+ message+ "\n");
-
+        sayBye();
+    }
+    
+    private void sayBye() {
+    
+        System.out.println("Bye!");
     }
 }
